@@ -63,7 +63,7 @@ class MenuController extends Controller
         if ($result) {
             return response()->json([
                 'error' => false,
-                'message' => 'Delete the directory successfully !!!'
+                'message' => 'Delete the directory successfully !'
             ]);
         }
 
